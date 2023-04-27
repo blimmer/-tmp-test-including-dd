@@ -23,6 +23,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   peerDeps: [
     '@aws-cdk/aws-lambda-python-alpha@^2.63.0-alpha.0',
   ],
+
+  github: false,
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
